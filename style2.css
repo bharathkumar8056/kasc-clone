@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-web{
+    display: block;
+}
+.banner-mobile{
+    display:none;
+}
+@media all and (max-width: 499px) {
+    .banner-web {
+        display: none;
+    }
+
+    .banner-mobile {
+        display: block;
+    }
+}
+.navbar{
+    color: #1f2f63;
+    font-weight: 500 ;
+    background-color: #14b2a0;
+    margin:0px;
+    padding: 100px;
+}
+.navbar,a{
+    color: #1f2f63 !important;
+}
+.navbar,a:hover{
+    color:#d9d9d9 !important;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.animate-character {
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 30px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.p1 {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 1px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #14b2a0,#14b2a0,#14b2a0);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
+    }
+}
+.bg-success{
+    background-color: #1f2f63 !important;
+}
+.bg-primary{
+    background-color: #14b2a0 !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.submenu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    margin-top: -1px;
+}
+.dropdown-menu>li:hover>.submenu {
+    display: block;
+}
+.dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+}
+.carousel-item {
+    text-align: center;
+}
+
+.carousel.carousel-thumbs-top {
+    padding-top: 0px;
+}
+
+.carousel.carousel-thumbs-top .carousel-indicators {
+    bottom: -30px;
+    top: auto;
+}
+
+.carousel .carousel-indicators button {
+    width: 100px !important;
+}
+
+.carousel-caption {
+    right: 0%;
+    bottom: 0;
+    left: 0%;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    background-color: rgb(20 178 160 / 50%);
+    color: #1f2f63;
+}
+
+@media all and (max-width: 499px) {
+    .carousel-caption {
+        padding-left: 15px;
+        padding-top: 0.15rem;
+        padding-bottom: 0.15rem;
+    }
+}
+.w-100 {
+    width: 100% !important;
+}
+.d-block {
+    display: block !important;
+}
+img, svg {
+    vertical-align: middle;
+}
+.accordion-button:not(.collapsed) {
+    color: #12a090 !important;
+    background-color: #e8f7f6 !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125) !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+@media only screen and (max-width:500px){
+    .first-col, .second-col, .third-col {
+        width:100% !important;
+      } 
+}
+sub {
+    bottom: -.25em; 
+}
+
+sup {
+    top: -.5em; 
+}
+      
+a {
+   color: #14b2a0 ;
+   text-decoration: underline; 
+}
+a:hover {
+        color: #108e80; 
+}
+.carousel-caption {
+    right: 0% !important;
+    bottom: 0 !important;
+    left: 0% !important;
+    padding-left: 15px !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    color: #1f2f63 !important;
+    text-align:left !important; 
+}
+.card-body {
+    flex: 1 1 auto !important;
+    padding: 1rem 1rem !important;
+}
+.border-success{
+    border-color: #14b2a0 !important;
+}
+.card ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.p-0{
+   padding: 0 !important;
+}
+.m-0{
+    padding: 0 !important;
+}
+p {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+}
+p {
+    display: block !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    unicode-bidi: isolate !important;
+}
